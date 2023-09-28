@@ -97,32 +97,6 @@
 %debug page outer frames
 %\usepackage{showframe}
 
-
-% job listing environments
-\newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    }
-    {
-    }
-
-\newenvironment{joblong}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
-    }
-    {
-    \end{itemize}
-    \end{minipage}    
-    }
-
-
-
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
@@ -142,76 +116,98 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{NIKHIL RANA} \\[7.5pt]
+\href{https://github.com/NikhilRana2076}{\raisebox{-0.05\height}\faGithub\ nikhilrana} \ $|$ \ 
+\href{https://www.linkedin.com/in/nikhilrana2076/}{\raisebox{-0.05\height}\faLinkedin\ Nikhil Rana} \ $|$ \ 
+\href{http://nikhilrana.com.np/}{\raisebox{-0.05\height}\faGlobe \ portfolio} \ $|$ \ 
+\href{mailto:nikhilrana2076@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ nikhilrana2076@gmail.com} \ $|$ \ 
+\href{tel:+9779810202949}{\raisebox{-0.05\height}\faMobile \ +977 9810202949} \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
 %----------------------------------------------------------------------------------------
 
-%Interests/ Keywords/ Summary
-\section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+%Interests/ Keywords/ Profile
+\section{Profile}
+Analytical, bright, confident, dependable, and enthusiastic fresher.
 
-%Experience
-\section{Work Experience}
-
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
-
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
-  
-%Projects
-\section{Projects}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
+2019 -  & BSc. CSIT at \textbf{ACHS College (Tribhuvan University).} \hfill (Ongoing) \\ 
 
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
+2017 - 2019 & High School (Biology with Math) at \textbf{Reliance International Academy.}\hfill  (GPA: 3.14) \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+
+%Courses
+\section{Courses}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Python Basics for Data Analysis} & \hfil \href{https://github.com/NikhilRana2076/PythonAssignment}{\raisebox{-0.05\height}\faGithub\ Source code} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Completed a Python Fundamentals course, gaining practical experience in data analysis, including password data analysis and ADBL stock analysis using libraries like numpy, pandas, seaborn, and matplotlib. using data-sets provided by our instructor, \textbf {Mr. Janak Kumar Lal}.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Web Development} & \hfill \href{https://github.com/NikhilRana2076/nikhilrana}{\raisebox{-0.05\height}\faGithub\ Source code} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Fundamental understanding of web development principles, with proficiency in HTML, and CSS. I've used this knowledge to develop a personal portfolio website where I showcase my projects and skills.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+%Projects
+\section{Projects}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Basic analysis on best Kdramas of all time using Python} & \hfill \href{https://github.com/NikhilRana2076/project_bestkdrama}{\raisebox{-0.05\height}\faGithub\ Source Code} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Conducted comprehensive data analysis using Python within the Google Collab environment, leveraging a suite of libraries such as Matplotlib, NumPy, Pandas, and Seaborn using datasets obtained from Kaggle.}  \\
+\\
+\textbf{Movie Recommendation System using Python Django, and My.SQL} & \hfill \href{https://github.com/Tech-Savvy-college-project/Movie-Recommendation-System/tree/main}{\raisebox{-0.05\height}\faGithub\ Source code} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Collaborative effort to develop a movie recommendation system within a team of nine students for a college project, following the Agile methodology and tracking progress using Jira software by leading the data collection process and handling the backend development for the project's login page. }  \\
+\end{tabularx}
+
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+\textbf{Languages:} &  \normalsize{C, C++, Python, My.SQL, LaTeX, Java.} \hfill \href{https://github.com/NikhilRana2076?tab=repositories}{\raisebox{-0.05\height}\faGithub\ Lab works} \\[3.75pt] 
+
+\textbf{Tools:}  &  \normalsize{Dev C++, MS Office(Excel, Word, PowerBi), Jupyter Notebook, SPSS, Wordpress.} \\[3.75pt] 
+
+\textbf{Interests:}  &  \normalsize{Engaging in sports(football, basketball), participating in FPL and blog writing.}\hfill \href{https://nikhilrana2076.blogspot.com/} {Blogspot} \\[3.75pt] 
+
+
 \end{tabularx}
 
+%----------------------------------------------------------------------------------------
+%Interests/ Keywords/ Relevant courses
+\section{Relevant Coursework}
+Digital Logic, Physics, Mathematics, Statistics, Discrete Structures, Data Structure and Algorithm, Data Warehousing and Data Mining, Numerical Method, Database Management System, Artificial Intelligence, Simulation and Modelling, Software Engineering,  Database Administration.
+
+%	
+%----------------------------------------------------------------------------------------
+%Interests/ Keywords/ Reference
+\section{Reference}
+\textbf{Alish Thapa, Civil Engineer.}  \hfill \href{mailto:alismgr101@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ Gmail} \ $|$ \ 
+\href{tel:+9779813545913}{\raisebox{-0.05\height}\faMobile \ Phone}
+
 \vfill
-\center{\footnotesize Last updated: \today}
+\center{\footnotesize Made by Latex and last updated: \today}
 
 \end{document}
